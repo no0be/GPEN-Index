@@ -1,0 +1,592 @@
+Title,Description,Page,Book
+Penetration Testing - Mindset,Balance between flexible/pragmatic (think outside the box) and thorough/methodical/careful.,7,1
+Threat,An actor or agent that may want to or actually can cause harm to the target organization.,9,1
+Vulnerability,A flaw in the environment that an attacker can use to cause damage.,9,1
+Risk,Where threat and vulnerability overlap; a risk occurs when systems have a vulnerability that a given threat can attack.,9,1
+Exploit,The vehicle by which the attacker uses a vulnerability to cause damage to the target system.,9,1
+Penetration Testing - Job,Model the activities of real-world threats to discover vulnerabilities.,9,1
+Ethical Hacking,Process of using computer attack techniques to find security flaws with the permission of the target owner and the goal of improving the target’s security.,11,1
+White Hat Hacking,See Ethical Hacking.,11,1
+Penetration Testing,Process of finding flaws in a target environment with the goal of penetrating systems; getting control of them and getting access to information (subset of ethical hacking).,12,1
+Red Teaming,Using offensive tactics to help measure and improve the defense; detection; and response capabilities of a target organization.,13,1
+Vulnerability Assessment,Focused on finding vulnerabilities; often without regard to actually exploiting them and getting in.,14,1
+Security Assessment,See Vulnerability Assessment.,14,1
+Security Audit,Measuring things against a fixed; predetermined; rigorous set of standards.,15,1
+Audit,See Security Audit.,15,1
+Penetration Testing – Why?,See how effective an organization security actually is in light of an actual attack.,17,1
+Vulnerability – Addressing,.,18,1
+Penetration Tests Types,.,20,1
+Network Services Test,Finding target systems and their available network services on a given network.,20,1
+Client-Side Test,Find and exploit vulnerabilities in client-side software.,20,1
+Web Application Test,.,20,1
+Social Engineering Test,Attempting to dupe a user into revealing sensitive information or performing actions.,20,1
+Wireless Security Test,Find unauthorized wireless AP or authorized wireless AP with security weaknesses.,20,1
+Remote Dial-Up War Dial,Look for modems in a target environment.,20,1
+Physical Security Test,Look for flaws in the physical security practices of a target organization.,21,1
+Dumpster Diving,See Physical Security Test.,21,1
+Stolen Equipment Test,Trying to extract sensitive information from a stolen piece of equipment.,21,1
+Cryptanalysis Attack,Bypassing or breaking the encryption OR evaluate the strength of DRM,21,1
+DRM,Digital Rights Management. See Cryptanalysis Attack,21,1
+Product Security Test,Look for flaws in software.,21,1
+Attack Phases,.,22,1
+Reconnaissance,Gather information about the target organization from publicly available sources.,22,1
+Scanning,Finding openings in the target organization.,22,1
+Exploitation,Exploit target systems to compromise them.,22,1
+Covering the Tracks,Hide activities on a system.,22,1
+Free Testing Methodologies,.,24,1
+Open Source Security Testing Methodology Manual (OSSTMM),.,25,1
+Penetration Test Execution Standard (PTES),.,26,1
+NIST Technical Guide to Information Security Testing and Assessment,.,27,1
+OWASP Testing Guide,.,28,1
+Penetration Testing Framework,.,29,1
+Software Toolbox,.,31,1
+Free Software Tools,.,34,1
+Processmon (sysinternals),Helpful in analyzing file system and registry interactions.,34,1
+Exploit-DB,.,35,1
+Security Focus BID,Website with information about various vulnerabilities with exploit for some of them.,35,1
+SEEBUG,Website with information about various vulnerabilities with exploit for most of them.,35,1
+Packetstorm Security,Archive of attack and defense tools (website).,35,1
+Vulnerability Research Source,Website that publish information about vulnerabilities but do not distribute exploit code.,36,1
+US-CERT,See Vulnerability Research Source.,36,1
+Mitre CVE Repository,See Vulnerability Research Source.,36,1
+HackerStorm,See Vulnerability Research Source.,36,1
+Commercial Tools,.,37,1
+Home-Made Tools,.,38,1
+Testing Machine,Systems used by the penetration tester to evaluate the security of other machines.,39;41,1
+Attack Machine,See Testing Machine.,39,1
+Target Machine,Systems whose security stance is being evaluated.,39,1
+Victim Machine,See Target Machine.,39,1
+Penetration Testing – Lab,.,40,1
+VMware Virtual Appliance Marketplace,Vast achive of Vms freely available for download.,40,1
+Bridged Networking,In a VM context,42,1
+Penetration Testing – Network Infrastructure,.,43-45,1
+NAT,Causes problems for testers because it alters the source IP address of packets. See Network Infrastructure for Penetration Testing,44,1
+Testing Machine – Hardening,.,46-48,1
+File System Encryption,.,47,1
+BitLocker (Windows),.,47,1
+FileVault (macOS),.,47,1
+Cryptographic File System (CFS),File system encryption solution.,47,1
+TrueCrypt,.,47,1
+VeraCrypt,.,47,1
+Encrypting File System (EFS),Old Windows built-in file system encryption feature now considered insecure.,47,1
+Secure File Deletion Tool,Overwrite files with alternating zeros and ones multiple times to make sure the file cannot be recovered.,48,1
+Shred,See Secure File Deletion Tool.,48,1
+Cipher,See Secure File Deletion Tool.,48,1
+Command Prompts,.,53,1
+Elevated Command Shell – Windows,Command prompt launched with administrator privileges.,54,1
+Penetration Testing – Process,.,60,1
+Permission Memo,Grant authorization for en employee to perform a penetration test on his employer’s assets. See also Penetration Testing Agreement,61,1
+Get Out of Jail Free Card (GOOJFC),See Permission Memo.,61,1
+Penetration Testing – Agreement,Addition to the permission memo that also include a limitation of liability agreement and a contract. See also Permission Memo,62,1
+Law regarding penetration testing,.,63,1
+Rules of Engagement,Focus on how the test will be conducted and not to cover all the details between the target organization and the tester.,65-75,1
+Emergency Contact Information,In the context of the Rules of Engagement; to exchange between testing team and target organization prior a penetration test.,68,1
+ZIP (encrypted),.,68,1
+GnuPG,.,68,1
+Debriefing Conference Call,In the context of the Rules of Engagement.,69,1
+Unannounced Tests,Penetration test not announced to the people responsible for running the target infrastructure.,71,1
+Shunning of Penetration Test,Interfering with the penetration test by blocking network access or other automatic or manual countermeasures.,72,1
+Black Box Testing,Testing team is not given any information prior to the testing.,73,1
+Crystal Box Testing,Allows testers to see inside the target environment before launching any scans.,73,1
+Scoping,Determining what should be tested and what should not be tested. Also look at some types of testing that may or may not be in scope.,76-88,1
+Scope Creep,A misunderstanding of what should be tested that leads the target organization to add more systems; target networks; target types of testing to the test.,78,1
+Cloud (as target),.,81,1
+AWS Penetration Testing Request Form,.,81,1
+Cloud (as attack resources),.,82,1
+Pwnie Express,Company that offers penetration testing systems preconfigured to ship to target so that they can easily grant remote access to penetration testers.,84,1
+Denial of Service,.,86,1
+Dangerous Checks/Exploits,Checks or exploits that could potentially crash a target service or system.,87,1
+Report,Final report of a penetration test describing work done and findings.,91-92,1
+Report – Format,.,93,1
+Report – Executive Summary,.,94-95,1
+Executive Summary,See Report – Executive Summary.,94-95,1
+Report – Introduction,.,96,1
+Report – Methodology,.,97,1
+Report – Findings,.,98-100,1
+Report – Recommendation,.,101-102,1
+Report – Conclusion,.,103,1
+Report – Appendices,.,104,1
+Inventory of Targets,Inventory of discovered targets to build and use during a penetration test.,106,1
+Dradis,Tool designed for collaborative recording and analysis among a group of pen testers; with auto report generation.,108,1
+MagicTree,Tool designed to easier the maintaining of an inventory of targets during a penetration test.,108,1
+EtherPad,Browser based collaboration tool.,109,1
+Lair,Attack collaboration tool that can import data from a variety of scanning tools and allow multiple penetration testers to access data via their web browser.,109,1
+Reconnaissance,Gather information about the target organization from publicly available sources.,111,1
+Metadata,.,113-118,1
+Metadata – Document Types,.,114,1
+Metadata – Gathering Documents,.,115,1
+Metadata – Analysis Tools,.,116,1
+ExifTool,Structured metadata extraction and edition tool.,117,1
+FOCA,Structured metadata extraction tool.,116,1
+Metadata Extraction Tool by the National Library of New Zealand (NLNZ),Structured metadata extraction tool.,116,1
+Strings,Tool to display all printable text from a given file.,118,1
+Whois,Determine more information about a target domain name.,127,1
+Internet Network Information Center (InterNIC),Whois front end.,127,1
+Whois – CLI,.,129,1
+Jwhois,See Whois – CLI.,129,1
+Regional Internet Registries (RIR),Whois databases that store information about IP address block (CIDR) assignments.,131,1
+ARIN,American Registry for Internet Numbers. See Regional Internet Registries (RIR),131-132,1
+RIPE NCC,Reseaux IP Europeens Network Coordination. See Regional Internet Registries (RIR),131,1
+APNIC,Asia Pacific Network Information Centre. See Regional Internet Registries (RIR),131,1
+LACNIC,Latin American and Caribbean Internet Address Registry. See Regional Internet Registries (RIR),131,1
+AfriNIC,Africa Regional Internet Registry. See Regional Internet Registries (RIR),131,1
+Search Engines - OSINT,.,135-136,1
+Monster.com,Job hunting search engine.,136,1
+Social Networks – OSINT,.,137,1
+LinkedIn,See Social Networks – OSINT.,137,1
+DNS,.,139,1
+NS,Nameserver record (DNS).,139,1
+A,IPv4 address record (DNS).,139,1
+AAAA,IPv6 address record (DNS).,139,1
+HINFO,Host Information record (DNS).,139,1
+MX,Mail Exchange record (DNS).,139,1
+TXT,Text record (DNS).,139,1
+CNAME,Canonical Name record (DNS).,139,1
+SOA,Start of Authority record (DNS).,139,1
+RP,Responsible Person record (DNS).,139,1
+PTR,Pointer for inverse lookups records (DNS).,139,1
+SRV,Service location records (DNS).,139,1
+Nslookup,.,140-142,1
+Zone Transfer,.,141,1
+Recursive Lookup (DNS),Forward the request to another DNS server if the requesting DNS server does not have the answer in its cache.,142,1
+DNS cache snooping,Investigating what a given target DNS server has cached.,142,1
+Dig,.,143,1
+Google Search Directives,Advanced Google search using directives such as: site; related; intitle; inurl and filetype.,146-148,1
+Google Hacking Database (GHDB),Huge inventory of Google searches to find vulnerable systems.,149-150,1
+Google Dork,See Google Hacking Database (GHDB).,149-150,1
+Robots.txt,Tells well-behaved search engine crawlers to ignore certain directories or pages on the website.,150,1
+FSDB,Foundstone Database; similar to Google Hacking Database.,151,1
+SLDB,Bishop Fox company Google database; similar to Google Hacking Database.,151,1
+BHDB,Bishop Fox company Bing database; similar to Google Hacking Database.,151,1
+SearchDiggity,Windows GUI that ties together several other command line tools to use search engines to find vulnerable systems.,152,1
+GoogleDiggity,See Search Diggity.,152,1
+BingDiggity,See Search Diggity.,152,1
+DLPDiggity,See Search Diggity.,152,1
+MalwareDiggity,See Search Diggity.,152,1
+Recon-ng,Framework that pulls together numerous different reconnaissance capabilities; all within a single interactive command interface.,155,1
+Recon-ng – Module Groups,.,156,1
+Recon-ng – Recon Modules,.,157,
+Linux Filesystem,.,174,1
+Locate,Linux command to find files based on a pre-built database.,179,1
+Linux 101,.,167-207,1
+Scanning – Goal,.,5,2
+Scanning – Types,.,6,2
+Network Sweeping,Identifies which addresses are in use.,6,2
+Network Tracing,Discern the topology of the target network by drawing a network map.,6,2
+Port Scanning,Discerns potential openings in target machines by looking for listening TCP and UDP ports.,6,2
+OS Fingerprinting,Determine the target operating system type.,6,2
+Version Scanning,Check which protocols they speak and the version of the service listening on a given port.,6,2
+Vulnerability Scanning,Measure whether the target machine has any of thousands of potential vulnerabilities.,6;100-101,2
+Scanning – Workflow,.,7,2
+Scanning – Dealing with Large Scans,.,10-13,2
+TCP Reset,Standard reply for closed TCP port.,12,2
+ICMP Port Unreachable,Standard reply for closed UDP port.,12,2
+ScanRand,Port scanner that allows for hyperfast TCP port scanning by separating the sending and receiving mechanisms.,13,2
+Zmap,Port scanner that scans through large number of hosts on a single TCP port.,13,2
+WinDump,tcpdump ported to Windows.,16,2
+Tcpdump,Free; open source sniffer.,17-19,2
+IPv4 Header,.,21,2
+Time To Live (TTL),Indicates how many hops this packet can travel before it must be discarded.,21,2
+IPv6 Header,.,22,2
+Traceroute,Determine the addresses of routers between the scanning machine and a given target.,23,2
+ICMP TTL Exceeded in Transit,Reply from the router dropping a packet because its TTL has reached 0.,23,2
+Traceroute – Linux,.,24,2
+Tracert – Windows,.,26,2
+Traceroute – Web Based,.,27,2
+TCP,Transmission Control Protocol (TCP),28,2
+UDP,User Datagram Protocol (UDP),28,2
+TCP Header,.,29,2
+TCP Control Bits,.,30,2
+Congestion Window Reduced (CWR),TCP control bit regarding network congestion.,30,2
+Explicit Congestion Notification Echo (ECE),TCP control bit regarding network congestion.,30,2
+TCP – 3-way handshake,.,31,2
+Scanning – TCP,TCP behavior while port scanning.,33-34,2
+UDP Header,.,36,2
+Scanning – UDP,UDP behavior while port scanning,38-39,2
+Nmap,The most popular port scanner in the world.,41,2
+Nmap – packet-trace,.,42,2
+Nmap – Runtime Interaction,.,43,2
+Nmap – Timing,.,44-45,2
+Nmap – Output,.,46,2
+Nmap – Probing,.,47-49,2
+Nmap – nmap-services,File listing all known Nmap services; used to determine the top used ports.,50,2
+Nmap – TCP Scan,.,51-53,2
+Nmap – Custom TCP Control Bits,.,54,2
+Nmap – scanflags,.,54,2
+Nmap – UDP Scan,.,55,2
+Nmap – badsum,Generate packets with an invalid TCP or UDP checksum (firewall spotting).,56,2
+Firewall Spotting,Scanning technique to spot firewall responses using invalid TCP or UDP checksum.,56,2
+Nmap – IPv6,.,57,2
+Network Sweeping (IPv6),Identifies which IPv6 addresses are in use.,58,2
+Neighbor Discovery (IPv6),Send a message to the multicast address of a local subnet looking for neighbors.,58,2
+Nmap – targets-ipv6-multicast-echo,.,58,2
+Nmap – Active OS Fingerprinting,.,66-67,2
+Passive OS Fingerprinting,Determine OS of target by listening their network traffic.,66,2
+P0f2,Passive OS fingerprinting free tool.,66,2
+/etc/services,File included in most UNIX systems which lists common ports.,68,2
+IANA Port Assignments,Official port assignment list maintainer.,68,2
+Nmap – Version Scanning,.,69,2
+Nmap – version-trace,.,69,2
+Nmap – Auto (-A),-A = -O + -sV + -sC + --traceroute,69,2
+Nmap – nmap-service-probes,File listing more than 1000 service signatures; used during version scanning.,69,2
+Scapy,Packet crafting; manipulation and analysis suite written in Python.,77,2
+Scapy – sprintf,Feature to format output of packets.,83,2
+Scapy – TCP Control Bits,.,85,2
+Hping,Packet crafting tool.,91,2
+Nmap Scripting Engine (NSE),Extend the capabilities of Nmap with LUA scripts.,104-105,2
+Lua,Fast; flexible and free scripting language.,105,2
+Nmap Scripting Engine (NSE) – Categories,.,106-107,2
+Nessus,Commercial vulnerability scanner.,115,2
+Nessusd,Nessus vulnerability scanner daemon (server).,116,2
+OpenVAS,Free forked of the last open-source version of Nessus (version 2).,116,2
+Nessus-fetch,Register your serial number with your given Nessus installation on Linux; Solaris and FreeBSD.,117,2
+Nessus-update-plugins,Manually update Nessus plugins.,117,2
+Nessus – Enable Safe Checks,Default configuration that does not include dangerous plugins.,119,2
+NeXCSer,Script for merging multiple Nessus XML report files and converting them into a CSV file.,120,2
+Nexpose,Commercial vulnerability scanner.,128,2
+Metasploit Pro,GUI for metasploit; integration between scanning and exploitation; etc.,128,2
+SAINT,One of the original vulnerability scanner.,128,2
+BeyondTrust Retina Network Security Scanner,Commercial vulnerability scanner.,128,2
+Core Impact,Commercial exploitation frameworks with limited vulnerability scanner features.,128,2
+Netcat,.,130-131,2
+Netcat – Port Scan,.,134,2
+Netcat – Listener,.,135,2
+Netcat – Monitor Services,Use netcat to build a small remote service monitoring tool.,136-137,2
+Exploitation – Why?,.,6,3
+Exploit – Categories,.,9,3
+Service-Side Exploit,Exploit targeting a service that is listening on the network.,10,3
+Client-Side Exploit,Exploit targeting a client application that fetches content from a server machine.,11,3
+Microsoft Baseline Security Analyzer (MBSA),Free tool that generates high-quality reports indicating Microsoft software that is out of date.,15,3
+Secunia’s Corporate Software Inspector,Tool that conducts detailed inventories and analysis of installed software.,15,3
+Representative Sample,Machine that represents all other machines of a target organization.,17,3
+Local Privilege Escalation Exploit,.,18,3
+SUID,Permission bit of a Linux binary that allows it to always run with the privilege of its owner.,19,3
+Getsystem,Metasploit command of the priv module that runs through a series of local privilege escalation exploits.,19,3
+Hashdump,Metasploit command of the priv module that collects local hashes from the SAM database.,19,3
+Enlightenment Exploit Pack,Includes approximately a dozen different privilege escalation exploits for Linux.,19,3
+Csrss.exe,Process that controls interactions within user mode.,19,3
+Winlogon.exe,Process that logs user onto a machine.,19,3
+Lsass.exe,Process that provides authorization checks.,19,3
+Race Condition,Issue involving two different actions happening on a system in an indeterminate order with different results if one action finishes before the other.,19,3
+Kernel Attacks,Type of local privilege escalation that targets the kernel.,19,3
+Metasploit Framework,Free and open-source exploitation framework.,21,3
+Metasploit Pro,Commercial version of the Metasploit Framework,21,3
+Cobalt Strike,Commercial exploitation framework developed by Raphael Mudge.,21,3
+Core IMPACT,Commercial exploitation framework developed by Core Security Technologies.,21,3
+CANVAS,Commercial exploitation framework developed by Immunity.,21,3
+Exploitation Framework,Environment in which exploits can be used to compromise targets and in which new exploits can be created.,21,3
+Metasploit – File System,.,25,3
+Msfpescan,Metasploit Framework Portable Executable scanning tool that looks through Windows EXE and DLL to find patterns that might be consistent with a given type of vulnerability.,25,3
+Msfopcode,Provides an interface for looking up machine language opcodes.,25,3
+Msfconsole,Metasploit console interface (main interface).,26,3
+Msfd,Metasploit daemon listening on tcp/55554 (no authentication; no encryption).,26,3
+Msfrpcd,Metasploit daemon listening on tcp/55553 awaiting control messages using XML over RPC (SSL available).,26,3
+Armitage,Metasploit client that controls the framework over msfrpcd (XML over RPC).,26,3
+Msfcli,Metasploit single-command interface.,26,3
+Msfvenom,Generate Metasploit payloads in a range of different file formats.,26,3
+Msfencode,Encode file or raw shell code to avoid signature-based AV.,26;67,3
+Metasploit – Modules,.,27,3
+NOP (sled),Machine instruction that tell a processor to do nothing.,27,3
+Metasploit – Exploits,.,28,3
+Metasploit – Windows Exploits,.,29,3
+DCERPC,Microsoft Distributed Computing Environment Remote Procedure Call.,29,3
+Psexec (msf),Always requires admin privileges on the remote machine.,29-30,3
+OSVDB,Open Source Vulnerability Database (osvdb.org).,30,3
+Bugtraq,Similar to OSVDB and CVE.,30,3
+Metasploit – Payloads,.,31-34,3
+Single,Stand-alone payload that include all their pieces in one module.,32,3
+Stager,Stagers load the stage into the target machine and implement communications code.,33,3
+Stage,Payload piece part that implement the functionality.,34,3
+Metasploit – IPv6,.,33,3
+Adduser,Msf single payload that creates an admin user account as backdoor.,32,3
+Speak_pwned,Msf single payload that says “You got pwned!”,32,3
+Exec,Msf single payload that executes a single command.,32,3
+Download_exec,Msf single payload that downloads a program to the target machine and executes it.,32,3
+Shell_bind_tcp,Msf single payload that provides shell access via a listening TCP port on the victim.,32,3
+Shell_bind_tcp_xpfw,Msf single payload that first disable Windows Firewall then provides shell access via a listening TCP port.,32,3
+Shell_reverse_tcp,Msf single payload that makes a reverse shell connection back to the attacker.,32,3
+Bind_tcp,Msf stager that listen on a TCP port on the victim.,33,3
+Bind_ipv6_tcp,Msf stager similar to bind_tcp using IPv6.,33,3
+Reverse_tcp,Msf stager that makes an outbound TCP connection back to the attacker.,33,3
+Reverse_ipv6_tcp,Msf stager similar to reverse_tcp using IPv6.,33,3
+Reverse_http,Msf stager that carries a session back to the attacker using outbound HTTP.,33,3
+Reverse_https,Msf stager that carries a session back to the attacker using outbound HTTPS; with all data encrypted in the stager.,33,3
+Reverse_tcp_allports,Msf stager that tries to make an outbound TCP connection back to the attacker by cycling through each port.,33,3
+Dllinject,Msf stage that injects a DLL into the memory.,34,3
+Upexec,Msf stage that uploads an executable to the target machine and runs it.,34,3
+Shell,Msf stage that implements a standard cmd.exe/bash shell.,34,3
+Vncinject,Msf stage that gives remote VNC control of the target.,34,3
+Metasploit Courtesy Shell,Indicates to the user at the console that Metasploit has been used to get VNC control over the system.,34,3
+Meterpreter,Msf stage that provides a specialized shell designed for computer attacks.,34;42,3
+Sysinfo,Meterpreter command to show the system name and operating system type.,43,3
+Reg,Meterpreter command to read from or write to the Registry of the target machine.,43,3
+Meterpreter – File System Commands,.,44,3
+Getpid,Meterpreter command to display the PID of the process that the Meterpreter runs inside.,45,3
+Getuid,Meterpreter command to display the user ID name that the Meterpreter runs with.,45,3
+Migrate,Meterpreter command to jump from the Meterpreter current process to a given destination process ID.,45,3
+Meterpreter – Networking Commands,.,46,3
+Stdapi,Meterpreter networking commands.,46,3
+Portfwd,Meterpreter command to forward traffic for a given incoming TCP port on the attack’s machine across the Meterpreter session to another machine on a different TCP port.,46,3
+Meterpreter – Console Interface Commands,Commands to interact with the console (GUI) of the target machine.,47,3
+Idletime,Meterpreter command to display the amount of time that the GUI of the victim has been idle.,47,3
+Uictl,Meterpreter command to enable or disable the mouse and/or keyboard of the target machine.,47,3
+Meterpreter – Webcam Commands,.,48,3
+Meterpreter – Mic Commands,.,48,3
+Meterpreter – Keylogger,.,49,3
+Keyscan_dump,Meterpreter command to pull down the captured keylogger keystokes.,49,3
+Metasploit – Pivoting,.,50,3
+Route (msf),Msf command used to direct all traffic for a given target subnet from the attacker’s Metasploit machine through a given Meterpreter session.,50,3
+Metsrv.dll,Meterpreter default module implementing the Core functionality.,51,3
+Ext_server_stdapi.dll,Meterpreter default module implementing the Stdapi functions.,51,3
+Meterpreter – Priv Module,.,52-53,3
+Hashdump,Meterpreter command (priv module) to dump the local SAM database.,52,3
+Timestomp,Meterpreter command (priv module) that alters dates and timestamps associated with files in NTFS partitions.,52,3
+MACE,Acronym to reference timestamps of a file within a NTFS partition (Modified; Accessed; Created; mft Entry).,52,3
+Getsystem,Meterpreter command (priv module) that provides several techniques for local privilege escalation to SYSTEM.,53,3
+Meterpreter – Modules,.,51,3
+Msfmap,Meterpreter module which implements a stripped-down set of Nmap-like functionality.,54,3
+Antivirus Evasion Tactics,.,64-65,3
+Ghost Writing,AV evasion technique that consists in altering the malicious executable in a disassembler or hex editor.,64,3
+VirusTotal,.,66,3
+Veil Framework,Penetration testing framework mostly known for its Veil-Evasion tool.,68,3
+Veil-Evasion,Tool that creates payload designed to evade antivirus tools.,68-70,3
+Veil-Catapult,Tool focused on running payloads on a target system.,68,3
+Veil-Pillage,Post-exploitation tools of the Veil Framework.,68,3
+Veil-PowerUp,Privilege escalation tools of the Veil Framework.,68,3
+Veil’s VDay,The day on which the new Veil payload is released.,70,3
+PSH-CMD Options,Explanation of PSH-CMD options.,75,3
+Metasploit – Database,.,78-79,3
+Pwdump,Msf DB export format that contains only a list of hosts and the credentials taken from each host.,78,3
+Metasploit – Auxiliary Scanner,.,81,3
+RHOSTS,.,81,3
+Metasploit Database – Manual,.,82,3
+Db_nmap,Metasploit command to invoke Nmap directly from the msfconsole.,83,3
+Db_import,Metasploit command to import data into the Metasploit database.,84,3
+Db_autopwn,Old metasploit command that looked through the database and automatically identify exploits and run them.,85,3
+Port Relay,Technique to relay around firewall port filters or access localhost listening services.,94,3
+Netcat Relay,Setup a local port forwarding on Linux using netcat and a named pipe.,95,3
+Named pipe,In Linux; FIFO pipe used for instance to create a netcat relay.,95,3
+PowerShell Empire,Feature-rich post-exploitation framework based primarily on PowerShell,103-105,3
+PowerSploit,Code execution; screenshots; keystroke logging and more.,103;106,3
+Posh-SecMod,Discovery; network situational awareness; etc.,103;105,3
+UnmanagedPowerShell,.,103,3
+PowerShell-AD-Recon,.,103,3
+PowerShell Empire – Modules,.,106-108,3
+PowerBreach,Persistence mechanisms.,106,3
+PowerUp,Local privilege escalation.,106,3
+PowerView,Account info; domain info; shares; etc.,106,3
+TFTP,Simple File Transfer Protocol.,6,4
+FTP,File Transfer Protocol.,6,4
+SCP,Secure CoPy.,6,4
+HTTP (to transfer files),.,6,4
+Wget (to transfer files),.,6,4
+Lynx,.,6,4
+HTTrack,.,6,4
+Windows File Sharing,Native Windows protocols to transfer files between systems.,7,4
+Smbclient,Unix utility to use the SMB transfer protocol (Samba).,7,4
+Smbmount,Unix utility to use the SMB transfer protocol (Samba).,7,4
+Smbd,Samba daemon.,7,4
+NFS,Network File System; Unix protocol to transfer files between systems.,7,4
+Meterpreter – File Transfer,.,7,4
+Pilfering,The action to exfiltrate useful or sensitive information from a compromised system.,10-12,4
+Netstat -na,See current TCP and UDP usage (Windows).,12,4
+Netstat -natu,See current TCP and UDP usage (Linux).,12,4
+Arp -a,Dump the system ARP cache,12,4
+Netstat -nr,Display the routing table on both Windows and Linux.,12,4
+Ipconfig /displaydns,Dump the Windows DNS cache.,12,4
+Type,Windows equivalent of cat.,16,4
+More,Windows equivalent of less/more.,16,4
+Find /i,Windows command to search for strings (case-insensitive with /i).,16,4
+Findstr,Windows command to search for regex.,16,4
+Set,Windows command to see environment variables (s.a. username or path).,17,4
+Dir,Windows command to search for a file in the file system.,18,4
+Net user,Windows command to list and manage local users.,19-20,4
+Net localgroup,Windows command to list and manage local groups.,19-20,4
+Netsh,Windows command to interact with the network settings (interfaces; firewall; etc).,21-22,4
+Reg,Windows command to interact with the Registry.,23,4
+Net use,Windows command to setup an SMB session.,24-25,4
+SMB Sessions,Manage SMB sessions using the net use command.,24-25,4
+Sc,Windows command to interact with services.,26-28,4
+Service Controller,See sc.,26-28,4
+FOR loops (Windows),.,29,4
+FOR /L,Windows command to loop using a counter.,30-33,4
+FOR /R,Windows command to loop over a set of files; the content of a file; or the output of a command.,34-35,4
+Timeout,Windows command to pause execution for a x number of seconds.,31,4
+Ping Sweep (Windows),Perform a ping sweep using basic for loop on Windows.,33,4
+Runas,Windows command to run commands as another user.,40,4
+Psexec (sysinternals),.,45-46,4
+Psexec (msf),.,47,4
+At,Old Windows command to schedule jobs (local or remote).,49-50,4
+Schtasks,Windows command to schedule jobs (local or remote).,49-50,4
+Schtasksabuse,Meterpreter command to automate the remote command execution process using schtasks.,50,4
+Sc (as psexec),Use the Service Controller to execute commands on remote machines.,51-52,4
+ServifyThis,InGuardians free tool to wrap an executable in a Windows service.,52,4
+WMIC,Windows Management Instrumentation Control to execute commands on a remote target.,53-54,4
+PowerShell – Cmdlets,.,64,4
+Get-Command,PowerShell cmdlet to list all cmdlets.,64,4
+PowerShell – Alias,.,65,4
+PowerShell – Common Cmdlets,.,66,4
+Get-ChildItem,PowerShell cmdlet to show the content of something that holds other objects; such as directory.,66,4
+Copy-Item,PowerShell cmdlet to copy something.,66,4
+Move-Item,PowerShell cmdlet to move something.,66,4
+Select-String,PowerShell cmdlet to search through files or output looking for strings or regular expressions.,66; 78,4
+Get-Help,PowerShell cmdlet that behaves like man.,66; 67,4
+Get-Content,PowerShell cmdlet to look inside of things to see their content; such as the content of a file.,66,4
+Get-Process,PowerShell cmdlet to list running processes.,66,4
+Get-Location,PowerShell cmdlet to print your current working directory.,66,4
+PowerShell – Help,.,67,4
+PowerShell – WhatIf,PowerShell cmdlet option present in most cmdlets that tells you what the command would do; without actually doing it.,70,4
+PowerShell – Pipeline,.,71,4
+Get-Member,PowerShell cmdlet to get a list of the properties and methods that are output from a given cmdlet.,71,4
+Format-List,PowerShell cmdlet to create a customized list of properties.,72,4
+ForEach-Object,PowerShell cmdlet that take each object piped to it and then run a command of your choosing against each individual object.,73,4
+Where-Object,PowerShell cmdlet to filter down a group of objects to select ones that we want based on their properties.,74,4
+Select-Object,PowerShell cmdlet to create new objects from those passed down the pipeline with a subset of properties.,75,4
+PowerShell – Find Files,.,76,4
+PowerShell – Built-in Variables,.,77,4
+PowerShell – Count,.,79,4
+PowerShell – Loops,.,80,4
+Out-Host,PowerShell cmdlet to convert the output of a command into a text stream (with paging option like less).,81,4
+Out-File,PowerShell cmdlet to write the output of a command into a file.,81,4
+PowerShell – Port Scan,.,82,4
+PowerShell – wget,.,82,4
+Net.Socket.TcpClient,PowerShell object to make a TCP connection.,82,4
+Password Guessing,.,93,4
+Password Cracking,.,93,4
+Synced Password,Alternative term for password re-use.,95-96,4
+Password Re-use,.,95-96,4
+LANMAN,Password hash representation that uses uppercase letters only.,96; 126,4
+Lm2ntcrack,Help crack NT hash from the already solved LANMAN hash of the same password.,96,4
+Uniq,Linux command to remove duplicates.,97,4
+CeWL,Custom Wordlist Generator; spiders a target website and builds a list of unique words.,98,4
+Hybrid Guessing,In password context; the concept of formulating alterations of dictionary words.,99,4
+Account Lockout,.,106,4
+LockoutStatus.exe,Microsoft tool to pull info about locked out accounts from Active Directory.,106,4
+Alockout.dll,Helps troubleshoot account lockout problems by generating a text file showing the name of applications that are causing account lockout.,106,4
+Account Lockout – Windows,.,107-108,4
+Net accounts,Windows command to display the account lockout policy.,107,4
+Passprop.exe,Microsoft tool to enable account local for the original administrator account (not default behavior).,108,4
+Account Lockout – Linux,.,109,4
+PAM,Pluggable Authentication Modules (PAM).,109,4
+Pam_tally,PAM module that provides account lockout functionality on Linux.,109,4
+No_magic_root,Tally option to still count bad service root login as bad login attempts.,109,4
+Even_deny_root_account,Tally option to enable account lockout for the root account.,109,4
+Ntpasswd,Linux tool to reset a Windows password on a mounted NTFS partition.,112,4
+Linux rescue,Linux boot mode using Live CD.,112,4
+Faillog,Linux command to reset the number of failed password attempts.,112,4
+Hydra,Password guessing tool.,114,4
+Xhydra,GUI front-end for the hydra password guessing tool.,114,4
+Pw-inspector,Tool included with hydra to trim word lists based on target password policy.,115,4
+SAM database,On Windows systems; local accounts hashes are stored in the Security Account Manager (SAM) database.,124,4
+Ntds.dit,On Active Directory; accounts hashes are stored in the %systemroot%\ntds\ntds.dit file.,125,4
+Ntdsxtract,Suite of tools that can parse the ntds.dit file to extract hashes.,125,4
+KGS!@#$%,Constant used to create LANMAN hashes.,126,4
+NT hash,Password representation on Windows system that uses the MD4 hashing algorithm.,127,4
+Salt,A bit of randomness folded into a crypto algorithm to make attacks against it more difficult.,127,4
+LANMAN Challenge/Response,Network authentication protocol using LANMAN hash to calculate the response.,129-130,4
+NTLMv1,Network authentication protocol using NT hash to calculate the response.,129-130,4
+NTLMv2,Network authentication protocol using a server challenge and a client challenge calculated using the NT hash.,131-132,4
+L0phtCrack,Old password cracking tool that lead to the creation of NTLMv2.,131,4
+/etc/shadow,.,133,4
+Crypt(3),Library used on most Linux and UNIX system to create password representations.,133,4
+Linux Password Representations,.,133,4
+BSDi Extended DES,Linux and UNIX password representation that starts with _.,133,4
+Blowfish-based,Linux and UNIX password representation that starts with $2$ or $2a$.,133,4
+DES password scheme,Traditional Linux and UNIX password representation.,134,4
+MD5 password scheme,Password representation used on many modern Linux machines.,135,4
+SHA-256 password scheme,Password representation used on many modern Linux machines.,135,4
+SHA-512 password scheme,Password representation used on many modern Linux machines.,135,4
+Unshadow,Tool included with John the Ripper to combine /etc/passwd and /etc/shadow to create a file suitable for cracking.,137,4
+Hashdump,Method to pull Windows hashes from a Meterpreter session.,138-139,4
+Mimikatz,Standalone tool to dump password hashes from the LSASS memory.,138; 146,4
+Volume Shadow Copy (VSS),Microsoft feature to create a copy of the ntds.dit file.,138; 147-148,4
+Syskey,Key located in Windows Registry and used to encrypt hashes on the file system.,138,4
+VSSOwn,VBS program that lets you manage and control VSS.,147-148,4
+John the Ripper,One of the most high-performance and flexible password cracking tools available.,5,5
+John the Ripper - Jumbo Patch,Free patch that includes a lot of different algorithms.,5,5
+John.conf,John the Ripper configuration file on Linux.,6,5
+John.ini,John the Ripper configuration file on Windows.,6,5
+John the Ripper – Modes,.,6,5
+Password.lst,Default wordlist used by John the Ripper.,6,5
+GECOS,Arbitrary blob of text associated with each user on Linux systems.,6,5
+John.pot,John the Ripper loot file holding all cracked hashes and their cleartext password.,7,5
+John.rec,John the Ripper recovery file for use in the event of a crash or to resume cracking where it left off.,8,5
+John the Ripper – Status,.,9,5
+John the Ripper – Optimization,.,10,5
+John the Ripper – Distributed,.,11,5
+GPU Password Cracking,.,12,5
+CUDA,Compute Unified Device Architecture.,12,5
+GPU MD5 password cracker,.,12,5
+CUDA-multiforcer,Password cracking tool using GPU.,12,5
+Aircrack-ng-CUDA,CUDA version of aircrack-ng.,12,5
+Pyrit,Password cracking tool using GPU.,12,5
+CoWPAtty,.,12,5
+Hashcat,Multithreaded tool for cracking passwords on CPUs and GPUs.,13,5
+Cain,Multi-usage Windows tool but its main focus is password cracking.,21,5
+Cain – Password Cracking,.,22,5
+Cain – Sniffers,.,23,5
+Syskey,An extra encryption for Windows SAM or AD when stored in the file system.,24,5
+ARP-Poisoned Routing,Classic ARP poisoning implemented in Cain.,24-25,5
+Rainbow Table,Pre-encrypted dictionary used for password cracking.,32,5
+Time-Memory Trade-Off,Trade off between time and memory required to crack passwords.,33,5
+Rainbow Table – Requirements,.,35,5
+Chains,Concept to build rainbow tables; set of password/hash relationships that are grouped together based on their relationships associated with hash functions and reduction functions.,37-38,5
+Reduction Functions,Used to build rainbow tables; takes a hash and converts it into another potential password.,37,5
+Rainbow Table – Building Process,.,37-39,5
+Rainbow Table – Lookup,.,40-41,5
+Rtgen,Rainbow table tool.,42,5
+Precomp,Rainbow table tool part of Ophcrack.,42,5
+Ophcrack,.,42,5
+Pass-the-Hash,Technique to use a hash directly to authenticate instead of having to crack the password.,48-49,5
+Pass-the-Ticket,Technique to inject a Kerberos ticket into memory to authenticate instead of having to crack the password.,50,5
+Windows Credentials Editor (WCE),Tool to inject credentials (hashes) into memory in order to perform pass-the-hash.,50,5
+PTH Toolkit,Old tool to inject credentials (hashes) into memory in order to perform pass-the-has.,50,5
+Psexec (msf) – Pass-the-Hash,Metasploit psexec module natively supports using hashes instead of passwords.,51,5
+Password Attacks,When to use each password attack technique?,57,5
+Web App,Definition of what is considered a web app.,60,5
+Nikto,Web vulnerability scanner focused exclusively on web server vulnerabilities.,62-63,5
+Wikto,Windows port of Nikto in the .NET Framework.,63,5
+Nikto – Commands,.,64,5
+Nikto – Test Categories,.,65-66,5
+ZAP Proxy,OWASP tool that provides a non-transparent HTTP and HTTPS proxy between an attacker and the target website.,71-75,5
+ZAP Proxy – Scanner,.,73,5
+ZAP Proxy – Encoding and Hash,.,74,5
+Burp Proxy,.,76,5
+W3af,Web Application Attack and Audit Framework.,76,5
+Fiddler,Proxy tool for the analysis of HTTP requests and responses.,76,5
+Mallory,Supports breakpoint feature for any TCP or UDP based protocol exchange; not just for HTTP or HTTPS.,76,5
+WebScarab,.,76,5
+Odysseus,.,76,5
+Telemachus,.,76,5
+Injection Attacks,Involve an attacker sending user input that includes instructions mixed with data.,84,5
+Cross-Site Request Forgery (XSRF/CSRF),Makes the browser access another site and engage in a transaction on that other site.,86; 90,5
+XSRF,See Cross-Site Request Forgery.,86; 90,5
+CSRF,See Cross-Site Request Forgery.,86; 90,5
+Anti-XSRF Token,Special unique value passed to the browser element at each stage of interaction with a user.,90,5
+Cross-Site Scripting (XSS),Inject a browser script into a website to deliver the script to a victim’s browser.,99-100,5
+XSS,See Cross-Site Scripting.,99-100,5
+XSS – Steal Cookies,Grab cookies from the victim’s browser and sends them to the attacker.,101,5
+XSS – Attacking Internal Systems,Make a browser conduct a scan or attack of an internal network.,102,5
+Jikto,Performs a Nikto scan of internal websites using XSS functionality.,102,5
+BeEF,Browser Exploitation Framework; offers a modular framework of features for controlling browsers via an XSS hook.,103,5
+XSS Shell,Shell on a victim’s browser via XSS.,103,5
+Reflected XSS,XSS directly reflected back from a request to the response.,104-105,5
+Stored XSS,XSS stored and then reflected back in a later response from a different request.,104; 106,5
+SPI Dynamics,Suite of tools which includes the capability to detect stored XSS.,107,5
+XSS – Encoding,Technique to bypass XSS protection that filters specific input characters.,108,5
+Xssed.com,Website with numerous XSS example and articles.,108,5
+Command Injection,Piggyback shell commands with user input to make the target machine run them.,117-118,5
+Command Injection – ping,.,118-120,5
+P0f,Free passive OS fingerprinting tool.,119,5
+Relational database,.,129,5
+SQL Injection,Involve an attacker sending user input that includes SQL instructions mixed with data.,129-130,5
+Sqlmap,Free tool to automate the SQL injection testing process.,131; 140,5
+SQL Injection – Testing Process,.,131,5
+SQL Injection – Find Flaw,.,132,5
+Intruder (Burp),Burp Suite module allowing to scan for SQL injection flaws.,132,5
+Structured Query Language (SQL),.,133,5
+SQL – Useful Statements,.,134-136,5
+SQL – Query Database Structure,.,137,5
+SQL Injection – Command Execution,.,138,5
+SQL Injection (Blind),SQL injection where you cannot see output of SQL queries or even explicit error message.,139-140,5
+Absinth,Tool to automate blind SQL injection,140,5
